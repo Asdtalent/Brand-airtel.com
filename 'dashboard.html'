@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <title>User Dashboard</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="withdrawal.html">Withdrawal</a></li>
+            <li><a href="investment.html">Investment</a></li>
+            <li><a href="account_info.html">Account Info</a></li>
+            <li><a href="customer_care.html">Customer Care</a></li>
+            <li><a href="logout.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="dashboard-container">
+        <h1>Welcome to Your Dashboard</h1>
+        <!-- Add specific content and features related to the user's dashboard -->
+        <!-- For example, display user information, recent activities, etc. -->
+
+        <div class="dashboard-section">
+            <h2>Recent Transactions</h2>
+            <!-- Display a list of recent transactions or activities -->
+            <ul>
+                <li>Transaction 1</li>
+                <li>Transaction 2</li>
+                <!-- Add more items as needed -->
+            </ul>
+        </div>
+
+        <div class="dashboard-section">
+            <h2>Account Overview</h2>
+            <!-- Display information about the user's account -->
+            <p>Account Balance: $XXX</p>
+            <p>Investment Value: $XXX</p>
+            <!-- Add more details as needed -->
+        </div>
+    </div>
+    <!-- Include JavaScript files at the end if needed -->
+
+</body>
+</html>
